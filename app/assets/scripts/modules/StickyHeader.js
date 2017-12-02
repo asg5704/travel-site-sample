@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import waypoints from 'waypoints/lib/noframework.waypoints';
 import smoothScroll from 'jquery-smooth-scroll';
-
 class StickyHeader {
   constructor() {
     this.lazyImages = $('.lazyload');

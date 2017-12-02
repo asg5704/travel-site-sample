@@ -1,4 +1,4 @@
-const gulp = require('gulp'),
+var gulp = require('gulp'),
       rename = require('gulp-rename'),
       del = require('del'),
       svgSprite = require('gulp-svg-sprite');

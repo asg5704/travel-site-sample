@@ -1,4 +1,7 @@
-var path = require('path');
+var path = require('path'),
+    UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+
 
 module.exports = {
   entry: {
@@ -14,8 +17,19 @@ module.exports = {
       {
         loader: 'babel-loader',
         test: /\.js$/,
-        exclude: /node_modules/
+        exclude: /node_modules/,
       }
     ]
-  }
+  },
+  plugins: [
+    new UglifyJSPlugin({
+      uglifyOptions: {
+        output: {
+          comments: false,
+          beautify: false,
+          ecma: 5,
+        }
+      }
+    })
+  ]
 }

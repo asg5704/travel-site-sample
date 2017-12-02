@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import waypoints from 'waypoints/lib/noframework.waypoints';
-
 class RevealOnScroll {
   constructor(els, offset) {
     this.itemsToReveal = els;
