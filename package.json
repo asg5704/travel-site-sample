@@ -50,6 +50,6 @@
     "postcss-simple-vars": "^4.1.0",
     "pump": "^2.0.0",
     "uglifyjs-webpack-plugin": "^1.1.2",
-    "webpack": "^3.8.1"
+    "webpack": "^3.12.0"
   }
 }
