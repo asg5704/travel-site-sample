@@ -22,7 +22,7 @@
     "lazysizes": "^4.0.1",
     "normalize.css": "^7.0.0",
     "picturefill": "^3.0.2",
-    "postcss": "^6.0.13",
+    "postcss": "^7.0.18",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
