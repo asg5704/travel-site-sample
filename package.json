@@ -49,7 +49,7 @@
     "postcss-nested": "^2.1.2",
     "postcss-simple-vars": "^4.1.0",
     "pump": "^2.0.0",
-    "uglifyjs-webpack-plugin": "^1.1.2",
+    "uglifyjs-webpack-plugin": "^1.3.0",
     "webpack": "^3.12.0"
   }
 }
